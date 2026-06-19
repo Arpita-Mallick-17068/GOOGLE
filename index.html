@@ -1,0 +1,42 @@
+<div id="container">
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google pages</title>
+        <style>
+            #container 
+            {
+                height: 60vh;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+            img {
+            display: block; 
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: auto;}
+            img {
+                display: block; 
+                margin-bottom: 20px;
+            }
+            #search-container
+            {
+                /* padding: 400px; */
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <img src="googly pic.jpeg" alt="google" width="300">
+        <form action="https://www.google.com/search">
+            <div id="search-container">
+            <input type="text" name="q">
+            <br> <br>
+            <input type="submit" value="Google Search">
+            <input type="submit" value="I'm Feeling Lucky" onclick="this.form.action='https://doodles.google';">
+            </div>
+        </form>
+    </body>
+</html>
+</div>
