@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Images</title>
+        <style>
+            #think
+            {
+                color: grey;
+                padding-top: 20px;
+                padding-left: 80px;
+                font-size: 30px;
+                font-weight: 500;
+                font-family: sans-serif;
+            }
+            #thought
+            {
+                color: grey;
+                padding-top: 20px;
+                padding-left: 80px;
+                font-size: 25px;
+                font-weight: 250;
+                font-family: sans-serif;
+            }
+            #enter
+            {
+                padding-left: 80px;
+                font-family: sans-serif;
+                color: grey;
+            }
+        </style>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta3/dist/css/bootstrap-select.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select-country@4.2.0/dist/css/bootstrap-select-country.min.css">
+    </head>
+    <body>
+        <br>
+        <div >
+        <img src="googly pic.jpeg" alt="google" width="200" style="padding-left: 80px">
+        </div>
+        <form action="https://www.google.com/advanced_search" method="GET">
+            <br>
+            <hr>
+            <div id="think">
+               Advanced Search 
+            </div>
+            <br>
+            <div id="thought">
+                Find pages with
+            </div>
+            <br>
+            <div id="enter">
+                <b>All of these words: </b><input type="text" name="q" style="width:400px; height:40px; border-radius: 5px;">
+                <br><br>
+                <b>This exact word or phrase: </b><input type="text" name="q" style="width:400px; height:40px; border-radius: 5px;">
+                <br><br>
+                <b>None of these words: </b><input type="text" name="q" style="width:400px; height:40px; border-radius: 5px;">
+                <br><br>
+                <b>Site or domain: </b><input type="text" name="q" style="width:400px; height:40px; border-radius: 5px;">
+            </div>
+            <br>
+            <div id="thought">
+                Then narrow your results by
+            </div>
+            <br>
+            <div id="enter">
+                <b>File type:</b> 
+                <select style="font-size: 18px; padding: 10px 15px; border-radius: 5px; border: 2px solid #333; cursor: pointer; background-color: white;">
+                    <option>Any Format</option>
+                    <option>Adobe Acrobat PDF (.pdf)</option>
+                    <option>Adobe Postscript (.ps)</option>
+                    <option>Autodesk DWF (.dwf)</option>
+                    <option>Google Earth KML (.kml)</option>
+                    <option>Google Earth KMZ (.kmz)</option>
+                    <option>Microsoft Excel (.xls)</option>
+                    <option>Microsoft PowerPoint (.ppt)</option>
+                    <option>Microsoft Word (.doc)</option>
+                    <option>Rich Text Format (.rtf)</option>
+                    <option>Shockwave Flash (.swf)</option>
+                </select>
+                <br><br>
+                <b>Last update:</b>
+                <select style="font-size: 18px; padding: 10px 15px; border-radius: 5px; border: 2px solid #333; cursor: pointer; background-color: white;">
+                    <option>Any time</option>
+                    <option>Past hour</option>
+                    <option>Past 24 hours</option>
+                    <option>Past week</option>
+                    <option>Past month</option>
+                    <option>Past year</option>
+                </select>
+                <br><br>
+                <b>Language:</b>
+                <select style="font-size: 18px; padding: 10px 15px; border-radius: 5px; border: 2px solid #333; cursor: pointer; background-color: white;">
+                     <option value="AF">Any Language</option>
+                     <option value="AF">Afrikaans</option>
+                     <option value="SQ">Albanian</option>
+                     <option value="AR">Arabic</option>
+                     <option value="HY">Armenian</option>
+                     <option value="EU">Basque</option>
+                     <option value="BN">Bengali</option>
+                     <option value="BG">Bulgarian</option>
+                     <option value="CA">Catalan</option>
+                     <option value="KM">Cambodian</option>
+                     <option value="ZH">Chinese (Mandarin)</option>
+                     <option value="HR">Croatian</option>
+                     <option value="CS">Czech</option>
+                     <option value="DA">Danish</option>
+                     <option value="NL">Dutch</option>
+                     <option value="EN">English</option>
+                     <option value="ET">Estonian</option>
+                     <option value="FJ">Fiji</option>
+                     <option value="FI">Finnish</option>
+                     <option value="FR">French</option>
+                     <option value="KA">Georgian</option>
+                     <option value="DE">German</option>
+                     <option value="EL">Greek</option>
+                     <option value="GU">Gujarati</option>
+                     <option value="HE">Hebrew</option>
+                     <option value="HI">Hindi</option>
+                     <option value="HU">Hungarian</option>
+                     <option value="IS">Icelandic</option>
+                     <option value="ID">Indonesian</option>
+                     <option value="GA">Irish</option>
+                     <option value="IT">Italian</option>
+                     <option value="JA">Japanese</option>
+                     <option value="JW">Javanese</option>
+                     <option value="KO">Korean</option>
+                     <option value="LA">Latin</option>
+                     <option value="LV">Latvian</option>
+                     <option value="LT">Lithuanian</option>
+                     <option value="MK">Macedonian</option>
+                     <option value="MS">Malay</option>
+                     <option value="ML">Malayalam</option>
+                     <option value="MT">Maltese</option>
+                     <option value="MI">Maori</option>
+                     <option value="MR">Marathi</option>
+                     <option value="MN">Mongolian</option>
+                     <option value="NE">Nepali</option>
+                     <option value="NO">Norwegian</option>
+                     <option value="FA">Persian</option>
+                     <option value="PL">Polish</option>
+                     <option value="PT">Portuguese</option>
+                     <option value="PA">Punjabi</option>
+                     <option value="QU">Quechua</option>
+                     <option value="RO">Romanian</option>
+                     <option value="RU">Russian</option>
+                     <option value="SM">Samoan</option>
+                     <option value="SR">Serbian</option>
+                     <option value="SK">Slovak</option>
+                     <option value="SL">Slovenian</option>
+                     <option value="ES">Spanish</option>
+                     <option value="SW">Swahili</option>
+                     <option value="SV">Swedish </option>
+                     <option value="TA">Tamil</option>
+                     <option value="TT">Tatar</option>
+                     <option value="TE">Telugu</option>
+                     <option value="TH">Thai</option>
+                     <option value="BO">Tibetan</option>
+                     <option value="TO">Tonga</option>
+                     <option value="TR">Turkish</option>
+                     <option value="UK">Ukrainian</option>
+                     <option value="UR">Urdu</option>
+                     <option value="UZ">Uzbek</option>
+                     <option value="VI">Vietnamese</option>
+                     <option value="CY">Welsh</option>
+                     <option value="XH">Xhosa</option>
+                </select>   
+                <br><br>
+                <label class="form-label" style="font-family: Arial; font-weight: bold;">Region:</label>
+                <select name="cr" style="font-size: 18px; padding: 10px 15px; border-radius: 5px; border: 2px solid #333; cursor: pointer; background-color: white;">
+                    <option value="">Any Region</option>
+                </select>
+                <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta3/dist/js/bootstrap-select.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap-select-country@4.2.0/dist/js/bootstrap-select-country.min.js"></script>
+
+<!-- <script>
+  // Initialize the selectpicker via jQuery just to be safe
+  $(document).ready(function() {
+      $('.selectpicker').selectpicker();
+  });
+</script> -->
+                <br><br>
+                <b>Usage rights:</b>
+                <select style="font-size: 18px; padding: 10px 15px; border-radius: 5px; border: 2px solid #333; cursor: pointer; background-color: white;">
+                    <option>Not filtered by licence</option>
+                    <option>Free to use or share</option>
+                    <option>Free to use or share, even commercially</option>
+                    <option>Free to use, share, or modify</option>
+                    <option>Free to use, share, or modify, even commercially</option>
+                </select>
+            </div>
+        </form>
+    </body>
+</html>
